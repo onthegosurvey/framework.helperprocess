@@ -5,6 +5,11 @@ plugins {
 group = 'onthego-helperprocess'
 version = '1.0'
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_20
+    targetCompatibility = JavaVersion.VERSION_20
+}
+
 repositories {
     mavenCentral()
 }
